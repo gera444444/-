@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Товары | PetShop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Наши товары</h1>
+        <nav>...</nav>
+    </header>
+
+    <main>
+        <!-- Форма фильтрации -->
+        <form action="products.html" method="get">
+            <input type="text" name="search" placeholder="Поиск...">
+            <select name="category">
+                <option value="">Все категории</option>
+                <option value="food">Корм</option>
+                <option value="toys">Игрушки</option>
+            </select>
+            <button type="submit">Фильтровать</button>
+        </form>
+
+        <!-- Список товаров -->
+        <div class="products">
+            <div class="product">
+                <h3>Корм для кошек</h3>
+                <p>Цена: 500 руб.</p>
+                <!-- Ссылка на страницу товара (если реализуете) -->
+                <a href="/product/1">Подробнее</a>
+            </div>
+            
+            <!-- Другие товары -->
+        </div>
+    </main>
+</body>
+</html>
