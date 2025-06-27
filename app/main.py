@@ -5,7 +5,7 @@ from app.db.models import Base
 from app.api import auth, users, items
 from app.websocket import chat
 
-# Создаем таблицы в БД (для SQLite)
+# Создаем таблицы в БД 
 Base.metadata.create_all(bind=engine)
 
 # Инициализация приложения
